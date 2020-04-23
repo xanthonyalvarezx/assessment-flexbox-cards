@@ -4,6 +4,10 @@
   border: 1px solid #CAD0D2;
   border-radius: 4px;
   overflow: hidden;
+  border: 1px solid black;
+  height: 250px;
+  width:900px;
+  margin-left: 300px; 
 }
 
 .card {
@@ -18,6 +22,7 @@
   border-radius: 0;
   border-left: 1px solid #D7DBDD;
   overflow: hidden;
+
 }
 
 .cardDescription {
@@ -25,7 +30,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-grow:1.5;
+  flex-grow:1;
+  
 
   padding: 15px 0;
 }
